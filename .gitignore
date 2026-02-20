@@ -1,0 +1,89 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# Raw and processed EEG datasets (large binary files)
+data/
+
+# LMDB database files
+*.mdb
+lock.mdb
+
+# Common EEG/neuroscience data formats
+*.mat
+*.edf
+*.bdf
+*.fif
+*.set
+*.cnt
+*.vhdr
+*.vmrk
+*.eeg
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ── Model weights ─────────────────────────────────────────────────────────────
+pth/
+pth_downtasks/
+model_weights/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# ── Jupyter Notebook ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Logs & outputs ────────────────────────────────────────────────────────────
+logs/
+runs/
+*.log
+*.out
+*.err
+tb_logs/
+wandb/
+mlruns/
+
+# ── Secrets / credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+secrets.json
+
+# ── OS / editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── Claude Code session files ─────────────────────────────────────────────────
+.claude/
+
+# ── Miscellaneous build artifacts ─────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg

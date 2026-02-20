@@ -1,0 +1,19 @@
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cu121
+numpy
+scipy
+scikit-learn
+lmdb
+einops
+tqdm
+matplotlib
+umap-learn
+plotly
+pandas
+
+# EEG-LLM dependencies (for finetune_eeg_llm.py)
+transformers>=4.36.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+accelerate>=0.25.0
+sentencepiece
+protobuf
