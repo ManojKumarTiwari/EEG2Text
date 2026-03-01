@@ -1,0 +1,8 @@
+# Additional requirements for eeg2image pipeline
+# (on top of the base CSBrain requirements.txt in the project root)
+diffusers>=0.27.0
+transformers>=4.36.0
+protobuf
+accelerate>=0.25.0
+Pillow>=9.0
+scikit-learn   # for t-SNE evaluation plot
